@@ -1,0 +1,43 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+
+# Logs and generated course outputs
+*.log
+output*/
+output*.txt
+
+# Bundled third-party runtime and local tools
+hadoop-3.0.0/
+netAssist.exe
+
